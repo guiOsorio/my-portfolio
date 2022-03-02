@@ -1,0 +1,7 @@
+.app-header {
+    margin: 2%;
+    padding: 2%;
+    position: fixed;
+    background-color: transparent;
+    z-index: 10;
+}

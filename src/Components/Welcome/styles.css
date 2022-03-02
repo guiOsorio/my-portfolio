@@ -1,0 +1,12 @@
+.section__welcome {
+    background-color: #99d2e3;
+    position: relative;
+    z-index: 0;
+}
+
+.welcome-intro {
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    max-width: 45%;
+}
