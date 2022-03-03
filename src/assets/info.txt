@@ -1,0 +1,56 @@
+PROJECTS TO INCLUDE:
+- Teasles database design for a small business with SQL (ITMG 320 - Database Design and Business Intelligence Implementation)
+    - https://github.com/guiOsorio/ITMG_320/tree/master/Final_Project
+- Covid vaccine tweets analysis with R and SQL (BUAN 370 - Descriptive Analytics & Database Management)
+    - https://github.com/guiOsorio/Covid-Vaccine-Tweets-Analysis
+- Recipes platform in react (1st web dev project) (fetching APIs)
+    - https://github.com/guiOsorio/Gui-Recipes
+    - https://gui-recipes.herokuapp.com/
+- JS Algorithms using JavaScript (implementation of different algorithms on a web page)
+    - https://github.com/guiOsorio/JS-Algos
+    - https://guiosorio.github.io/JS-Algos/
+- ATP Data Analysis in Python (scrapping + database structuring) and R (preprocessing + visualization + cleaning + data transformation + PCA + clustering + regression)
+    - https://github.com/guiOsorio/ATP-Data-Analysis
+- Finance stock displayer in Python (Flask) and SQL (SQLite) (working with APIs to create a platform to simulate stock market transactions)
+    - https://github.com/guiOsorio/Finance
+    - https://gui-finance.herokuapp.com/login 
+- ACM Website using React (main contributor on design and implementation of website)
+    - https://github.com/usd-cs/acm-website
+    - http://usd-acm-website.herokuapp.com/ 
+- CS50 Trivia game using C++ (simple command-line trivia game based on Harvard's CS50 online course)
+    - https://github.com/guiOsorio/CS50-Trivia
+- Scheduling app using Python (Flask) and SQL (PostgreSQL), as well as email automation using AWS (scheduling platform for tennis clubs)
+    - https://github.com/guiOsorio/Scheduling-Demo
+
+CLASSES TO INCLUDE:
+- ECON 216 - Stats for Business & Economics (familiarity with statistics concepts and use of Excel for statistics and Tableau for visualizations)
+- FINA 408 - Financial Statements Analysis (in-depth analysis of companies' financial statements in Excel, culminating with a detailed valuation of Lululemon)
+- FINA 409 - Financial Modelling & Analysis (advanced use of Excel for financial modelling and analysis)
+- ITMG 320 - Database Design and Business Intelligence Implementation (design and structuring database concepts and practice in SQL)
+- BUAN 370 - Descriptive Analytics & Data Management (big data concepts, along as structuring, preprocessing, visualization and cleaning parts of the analytics process in R and SQL)
+- BUAN 371 - Analytical Decision Modelling (optimization techniques in Excel)
+- BUAN 390 - Business Analytics Strategy (visualization in Python and Tableau, Regression analysis and Machine Learning in Python)
+- MGMT 497 Strategic Management (consulting, in-depth understanding of the decisions and strategies of businesses by analyzing case studies)
+
+
+CERTIFICATES / COURSES TO INCLUDE (check email for certificates of completion):
+- Udemy Tableau
+    - https://www.udemy.com/course/tableau10/
+- Udemy Statistics
+    - https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/
+- Udemy Python
+    - https://www.udemy.com/course/the-modern-python3-bootcamp/
+- Udemy MySQL
+    - https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/
+- Udemy C/C++
+    - https://www.udemy.com/course/beginning-c-plus-plus-programming/
+    - https://github.com/guiOsorio/CPP-Practice
+    - https://github.com/guiOsorio/C-CPP-DataStructs
+- Udemy WebDev
+    - https://www.udemy.com/course/the-web-developer-bootcamp/
+- Udemy Advanced CSS
+    - https://www.udemy.com/course/advanced-css-and-sass/
+- Swirl R modules
+- CS50
+    - https://cs50.harvard.edu/x/2022/syllabus/
+    - https://github.com/guiOsorio/CS50
