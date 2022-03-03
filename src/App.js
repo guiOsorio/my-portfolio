@@ -5,6 +5,9 @@ import Header from './Components/Header';
 import Welcome from './Components/Welcome';
 import About from './Components/About';
 import Projects from './Components/Projects';
+import Education from './Components/Education';
+import Leadership from './Components/Leadership';
+
 
 class App extends Component {
     state = {  } 
@@ -15,6 +18,8 @@ class App extends Component {
                 <Welcome />
                 <About />
                 <Projects />
+                <Education />
+                <Leadership />
             </div>
         );
     }

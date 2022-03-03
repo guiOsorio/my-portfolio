@@ -1,7 +1,21 @@
 .app-header {
-    margin: 2%;
     padding: 2%;
     position: fixed;
     background-color: transparent;
+    color: white;
     z-index: 10;
+    width: 100vw;
+}
+
+.home-link {
+    float: left;
+}
+
+.light-grey {
+    font-weight: bold;
+    color: #cdcdcd;
+}
+
+.menu-bar {
+    float: right;
 }
