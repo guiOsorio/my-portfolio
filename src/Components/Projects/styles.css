@@ -26,6 +26,7 @@
     height: 10vh;
     margin: 0;
     text-align: center;
+    text-decoration: underline;
 }
 
 .webdev-project {

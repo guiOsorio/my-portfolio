@@ -1,3 +1,7 @@
 .section__education {
     background-color: #e5e4e2;
 }
+
+.section__education h2 {
+    padding: 4vh 0 0 2vw;
+}

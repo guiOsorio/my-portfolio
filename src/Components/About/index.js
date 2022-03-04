@@ -9,7 +9,7 @@ class About extends Component {
         return (
             <section className='section__about screen-size'>
                 <div className='about-left'>
-                    <h2>About me section</h2>
+                    <h2>ABOUT ME</h2>
                     <div className='wrapper'>
                         <div id='gui' className='pokemon'></div>
                     </div>

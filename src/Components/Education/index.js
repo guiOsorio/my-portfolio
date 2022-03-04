@@ -10,7 +10,7 @@ class Education extends Component {
     render() { 
         return (
             <div className="section__education screen-size">
-                <h2>Education</h2>
+                <h2>EDUCATION</h2>
             </div>
         );
     }

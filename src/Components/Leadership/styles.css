@@ -1,3 +1,7 @@
 .section__leadership {
     background-color: #ccccff;
 }
+
+.section__leadership h2 {
+    padding: 4vh 0 0 2vw;
+}
