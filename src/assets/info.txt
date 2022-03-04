@@ -1,25 +1,25 @@
 PROJECTS TO INCLUDE:
-- Teasles database design for a small business with SQL (ITMG 320 - Database Design and Business Intelligence Implementation)
+- Teasles database design for a small business with SQL (ITMG 320 - Database Design and Business Intelligence Implementation) (DaAn)
     - https://github.com/guiOsorio/ITMG_320/tree/master/Final_Project
-- Covid vaccine tweets analysis with R and SQL (BUAN 370 - Descriptive Analytics & Database Management)
+- Covid vaccine tweets analysis with R and SQL (BUAN 370 - Descriptive Analytics & Database Management) (DaAn)
     - https://github.com/guiOsorio/Covid-Vaccine-Tweets-Analysis
-- Recipes platform in react (1st web dev project) (fetching APIs)
+- Recipes platform in react (1st web dev project) (fetching APIs) (WeDe)
     - https://github.com/guiOsorio/Gui-Recipes
     - https://gui-recipes.herokuapp.com/
-- JS Algorithms using JavaScript (implementation of different algorithms on a web page)
+- JS Algorithms using JavaScript (implementation of different algorithms on a web page) (WeDe)
     - https://github.com/guiOsorio/JS-Algos
     - https://guiosorio.github.io/JS-Algos/
-- ATP Data Analysis in Python (scrapping + database structuring) and R (preprocessing + visualization + cleaning + data transformation + PCA + clustering + regression)
+- ATP Data Analysis in Python (scrapping + database structuring) and R (preprocessing + visualization + cleaning + data transformation + PCA + clustering + regression) (DaAn)
     - https://github.com/guiOsorio/ATP-Data-Analysis
-- Finance stock displayer in Python (Flask) and SQL (SQLite) (working with APIs to create a platform to simulate stock market transactions)
+- Finance stock displayer in Python (Flask) and SQL (SQLite) (working with APIs to create a platform to simulate stock market transactions) (WeDe)
     - https://github.com/guiOsorio/Finance
     - https://gui-finance.herokuapp.com/login 
-- ACM Website using React (main contributor on design and implementation of website)
+- ACM Website using React (main contributor on design and implementation of website) (WeDe)
     - https://github.com/usd-cs/acm-website
     - http://usd-acm-website.herokuapp.com/ 
-- CS50 Trivia game using C++ (simple command-line trivia game based on Harvard's CS50 online course)
+- CS50 Trivia game using C++ (simple command-line trivia game based on Harvard's CS50 online course) (WeDe)
     - https://github.com/guiOsorio/CS50-Trivia
-- Scheduling app using Python (Flask) and SQL (PostgreSQL), as well as email automation using AWS (scheduling platform for tennis clubs)
+- Scheduling app using Python (Flask) and SQL (PostgreSQL), as well as email automation using AWS (scheduling platform for tennis clubs) (WeDe)
     - https://github.com/guiOsorio/Scheduling-Demo
 
 CLASSES TO INCLUDE:

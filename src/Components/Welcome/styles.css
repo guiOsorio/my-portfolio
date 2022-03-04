@@ -6,7 +6,15 @@
 
 .welcome-intro {
     position: absolute;
-    top: 35%;
-    left: 34%;
-    max-width: 45%;
+    top: 30%;
+    left: 26%;
+    width: 45%;
+}
+
+.welcome-intro h1 {
+    text-align: center;
+}
+
+.welcome-intro p {
+    font-size: 150%;
 }

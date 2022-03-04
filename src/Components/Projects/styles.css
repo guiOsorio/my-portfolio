@@ -1,3 +1,109 @@
 .section__projects {
     background-color: #cbc3e3;
 }
+
+.section__projects h2 {
+    width: 100vw;
+    height: 14vh;
+    margin: 0;
+    padding: 4vh 0 0 2vw;
+}
+
+.projects-left {
+    float: left;
+    width: 50vw;
+    height: 186vh;
+}
+
+.projects-right {
+    float: right;
+    width: 50vw;
+    height: 186vh;
+}
+
+.projects-title {
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    text-align: center;
+}
+
+.webdev-project {
+    width: 100%;
+    height: calc(100%/6 - 10vh/6);
+    border: 1px solid red;
+}
+
+.data-project {
+    width: 100%;
+    height: calc(100%/3 - 10vh/3);
+    border: 1px solid red;
+}
+
+.scheduling-img {
+    background-image: url('../../assets/Scheduling_SS0.6.png');
+}
+
+
+
+.card {
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    /* width: 100%;
+    height: 100%; */
+    overflow: hidden;
+    font: 14pt 'sigmar one';
+}
+.card h4 {
+    height: 100%;
+    text-align: center;
+    padding-top: 4%;
+    z-index: 5;
+    font-size: 150%;
+    color: #262626;
+}
+.card .front,
+.card .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.card .front {
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+}
+.card:hover .front {
+    top: 0;
+    left: -100%;
+}
+.card .front img {
+    width: 100%;
+}
+.card .back {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 0 5%;
+}
+.card:hover .back {
+    top: 0;
+    left: 0%;
+}
+.card .back h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.card .back p {
+    margin: 20px 0 0;
+    color: #fff;
+}

@@ -7,6 +7,10 @@
     width: 100vw;
 }
 
+.app-header button:hover {
+    font-size: 140%;
+}
+
 .home-link {
     float: left;
 }

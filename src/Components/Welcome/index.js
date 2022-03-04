@@ -6,7 +6,13 @@ class Welcome extends Component {
     render() { 
         return (
             <div className='section__welcome screen-size'>
-                <h1 className='welcome-intro'>WELCOME-INTRO</h1>
+                <div className='welcome-intro'>
+                    <h1>WELCOME-INTRO</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                </div>
             </div>
         );
     }

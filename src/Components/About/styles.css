@@ -1,3 +1,90 @@
 .section__about {
     background-color: #e5e4e2;
 }
+
+.about-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 4vh 0 0 2vw;
+}
+
+.about-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 15vh 5vw 0 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+/* pokemone pictures */
+
+.pokemon {
+    width: 50%;
+    height: 65%;
+  /* center content using flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overlay */
+  box-shadow: 0 0 0 500px inset, 0 0 5px rgb(128, 128, 128);
+  /* hover out transition */
+  transition: box-shadow 1s;
+  float: left;
+  margin: 10px;
+}
+
+
+/* pokemone names */
+
+.pokemon::after {
+  width: 80%;
+  height: 80%;
+  display: block;
+  white-space: pre;
+  font: 15pt 'sigmar one';
+  color: white;
+  border: 2px solid;
+  text-align: center;
+  /* center content using flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* hover out transition */
+  transition: opacity 1s .5s;
+}
+
+
+/* reveal pokemone picture on hover */
+
+.pokemon:hover {
+  box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
+  transition: box-shadow 1s;
+}
+
+
+/* hide pokemone name on hover */
+
+.pokemon:hover::after {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+#gui {
+    background-image: url('../../assets/Gui.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgba(128, 128, 128, 0.8);
+    transform: translate(50%, 15%);
+}
+  
+#gui::after {
+    content: 'Gui'
+}
+
+.wrapper {
+    width: 50vw;
+    height: 100vh;
+}
+

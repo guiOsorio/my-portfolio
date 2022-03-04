@@ -13,7 +13,7 @@ class Leadership extends Component {
             <div className='section__leadership screen-size'>
                 <h2>Leadership Experience</h2>
                 <picture className='leadership-img'>
-                    <img src={champs} alt='Me' />
+                    <img src={champs} alt='Dynamic trio' />
                 </picture>
             </div>
         );

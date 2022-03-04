@@ -1,5 +1,5 @@
 body {
-  font-family: suez one, serif;
+  font-family: Lato, serif;
 }
 
 * {
@@ -8,8 +8,17 @@ body {
   box-sizing: border-box;
 }
 
+h1,h2,h3 {
+  font-family: suez one, serif;
+}
+
 .screen-size {
   height: 100vh;
+  width: 100vw;
+}
+
+.screen-size2 {
+  height: 200vh;
   width: 100vw;
 }
 
