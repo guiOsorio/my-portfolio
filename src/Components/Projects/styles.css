@@ -1,5 +1,6 @@
 .section__projects {
     background-color: #cbc3e3;
+    height: 280vh;
 }
 
 .section__projects h2 {
@@ -9,43 +10,59 @@
     padding: 4vh 0 0 2vw;
 }
 
-.projects-left {
-    float: left;
-    width: 50vw;
-    height: 186vh;
+.projects-top {
+    width: 100vw;
+    height: 150vh;
 }
 
-.projects-right {
-    float: right;
-    width: 50vw;
-    height: 186vh;
+.projects-top .projects-category {
+    height: 135vh;
+}
+
+.projects-bottom {
+    width: 100vw;
+    height: 105vh;
 }
 
 .projects-title {
     width: 100%;
+    margin: 2.5vh 0;
     height: 10vh;
     margin: 0;
     text-align: center;
     text-decoration: underline;
 }
 
+.projects-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .webdev-project {
-    width: 100%;
-    height: calc(100%/6 - 10vh/6);
-    border: 1px solid red;
+    width: 40%;
+    height: 40vh;
+    margin-bottom: 5vh;
+    border: 2px solid #cbc3e3;
 }
 
 .data-project {
-    width: 100%;
-    height: calc(100%/3 - 10vh/3);
-    border: 1px solid red;
+    width: 40%;
+    height: 40vh;
+    margin-bottom: 5vh;
+    border: 2px solid #cbc3e3;
 }
 
-.scheduling-img {
-    background-image: url('../../assets/Scheduling_SS0.6.png');
-}
+.scheduling-img { background-image: url('../../assets/Scheduling_SS0.6.png') }
+.trivia-img { background-image: url('../../assets/CS50_Trivia0.6.png') }
+.acmproject-img { background-image: url('../../assets/ACM_Website0.6.png') }
+.financeproject-img { background-image: url('../../assets/Finance_Project0.6.png') }
+.recipes-img { background-image: url('../../assets/Gui_Recipes0.6.png') }
+.algos-img { background-image: url('../../assets/JS_Algos0.6.png') }
 
+.link-right { float: right }
 
+.link-center { text-align: center }
 
 .card {
     /* position: absolute; */
@@ -105,6 +122,6 @@
 
 }
 .card .back p {
-    margin: 20px 0 0;
+    margin: 1% 0 0 0;
     color: #fff;
 }

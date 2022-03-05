@@ -12,6 +12,10 @@ h1,h2,h3 {
   font-family: suez one, serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .screen-size {
   height: 100vh;
   width: 100vw;
