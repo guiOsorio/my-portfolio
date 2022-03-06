@@ -3,5 +3,54 @@
 }
 
 .section__education h2 {
-    padding: 4vh 0 0 2vw;
+    padding: 4vh 0 2vh 2vw;
+    margin: 0;
+    height: 12vh;
+}
+
+.education-formal h3,
+.education-informal h3 { 
+    height: 10vh;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.education-formal {
+    height: 160vh;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.education-informal {
+    height: 160vh;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.box-left {
+    height: 50vh;
+    width: 40%;
+    float: left;
+    border: 1px solid blue;
+}
+.box-right {
+    height: 50vh;
+    width: 60%;
+    float: right;
+    border: 1px solid blue;
+}
+
+.education__box-title {
+    font-weight: bold;
+    padding: 2%;
+    height: 10vh;
+    margin: 0;
+}
+
+.education__box-text {
+    height: 40vh;
+    width: 100%;
+    border: 1px solid black;
+    padding: 0 2% 1% 2%;
 }
