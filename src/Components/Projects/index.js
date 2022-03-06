@@ -132,30 +132,48 @@ class Projects extends Component {
                     <h3 className='projects-title'>Data Analytics</h3>
                     <div className='projects-category'>
                         <div className='data-project card'>
-                            <div className='front scheduling-front'>
-                                <h4>Scheduling App</h4>
+                            <div className='front covid-img'>
+                                <h4>Covid Vaccine Tweets Analysis</h4>
                             </div>
                             <div className='back'>
-                                <p>Technologies used: Python (Flask) + SQL (PostgreSQL) + AWS (for automated emails)</p>
-                                <a href='#'>Project's page</a>
+                                <p>&rarr; Technologies used: R (ggplot, dplyr) + SQL (sqldf in R) <br/>
+                                &rarr; Data preprocessing followed by data cleaning and visualizations</p>
+                                <p className='link-center'>
+                                    <a href='https://github.com/guiOsorio/Covid-Vaccine-Tweets-Analysis' target='_blank'>Github repository</a>
+                                </p>
+                                <p className='link-center'>
+                                    <a href='#' target='_blank'>Project's page</a>
+                                </p>                    
                             </div>
                         </div>
                         <div className='data-project card'>
-                            <div className='front scheduling-front'>
-                                <h4>Scheduling App</h4>
+                            <div className='front tenniscourt-img'>
+                                <h4>Tennis Data Analysis</h4>
                             </div>
                             <div className='back'>
-                                <p>Technologies used: Python (Flask) + SQL (PostgreSQL) + AWS (for automated emails)</p>
-                                <a href='#'>Project's page</a>
+                                <p>&rarr; Technologies used: Python + R (ggplot, dplyr) <br/>
+                                &rarr; Data scrapping from ATP.com followed by data analysis</p>
+                                <p className='link-center'>
+                                    <a href='https://github.com/guiOsorio/ATP-Data-Analysis'>Github repository</a>
+                                </p>
+                                <p className='link-center'>
+                                    <a href='#' target='_blank'>Project's page</a>
+                                </p> 
                             </div>
                         </div>
                         <div className='data-project card'>
-                            <div className='front scheduling-front'>
-                                <h4>Scheduling App</h4>
+                            <div className='front teasles-img'>
+                                <h4>Small Business Database Design</h4>
                             </div>
                             <div className='back'>
-                                <p>Technologies used: Python (Flask) + SQL (PostgreSQL) + AWS (for automated emails)</p>
-                                <a href='#'>Project's page</a>
+                                <p>&rarr; Technologies used: SQL <br/>
+                                &rarr; Final project for the class 'Database Design and Business Intelligence Implementation'</p>
+                                <p className='link-center'>
+                                    <a href='https://github.com/guiOsorio/ATP-Data-Analysis'>Github repository</a>
+                                </p>
+                                <p className='link-center'>
+                                    <a href='#' target='_blank'>Project's page</a>
+                                </p> 
                             </div>
                         </div>
                     </div>
