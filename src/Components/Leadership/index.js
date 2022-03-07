@@ -12,9 +12,18 @@ class Leadership extends Component {
         return (
             <div className='section__leadership screen-size'>
                 <h2>LEADERSHIP EXPERIENCE</h2>
-                <picture className='leadership-img'>
-                    <img src={champs} alt='Dynamic trio' />
-                </picture>
+                <div className='leadership__tennis'>
+                    <h4>USD Men's Tennis Team</h4>
+                    <div>
+
+                    </div>
+                </div>
+                <div className='leadership__acm'>
+                    <h4>President of ACM Chapter at USD</h4>
+                    <div>
+                        
+                    </div>
+                </div>
             </div>
         );
     }
