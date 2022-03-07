@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import './styles.css';
 
+import VisualizationPic from '../../assets/Visualization_pic.png';
+import FinancePic from '../../assets/Finance_pic.png';
+import LecturePic from '../../assets/Lecture_pic.png';
+import SQLPic from '../../assets/SQL_pic.png';
+import CSPic from '../../assets/CS_pic.png';
+import WebDevPic from '../../assets/WebDev_pic.png';
+
 // Info to include: Overall GPA of 3.76; Major in Finance and Double-Minor in ITMG and Business Analytics
     // Relevant classes (projects / skills learned)
     // Relevant cerificates / online courses
@@ -48,7 +55,9 @@ class Education extends Component {
                     <h3>Formal Education</h3>
                     <div className='education-formal__box'>
                         <div className='box-left'>
-
+                            <div className='education__box-img'>
+                                <img src={VisualizationPic} alt='Visualizations' />
+                            </div>
                         </div>
                         <div className='box-right'>
                             <h5 className='education__box-title'>BUSINESS ANALYTICS</h5>
@@ -70,7 +79,9 @@ class Education extends Component {
                     </div>
                     <div className='education-formal__box'>
                         <div className='box-left'>
-
+                            <div className='education__box-img'>
+                                <img src={FinancePic} alt='Dollar Bills' />
+                            </div>
                         </div>
                         <div className='box-right'>
                             <h5 className='education__box-title'>FINANCE</h5>
@@ -86,7 +97,9 @@ class Education extends Component {
                     </div>
                     <div className='education-formal__box'>
                         <div className='box-left'>
-
+                            <div className='education__box-img'>
+                                <img src={LecturePic} alt='Lecture' />
+                            </div>
                         </div>
                         <div className='box-right'>
                             <h5 className='education__box-title'>OTHER NOTEWORTHY</h5>
@@ -105,7 +118,9 @@ class Education extends Component {
                     <h3>Certificates / Additional Courses</h3>
                     <div className='education-informal__box'>
                         <div className='box-left'>
-
+                            <div className='education__box-img'>
+                                <img src={SQLPic} alt='SQL pic' />
+                            </div>
                         </div>
                         <div className='box-right'>
                             <h5 className='education__box-title'>ANALYTICS SKILLS</h5>
@@ -127,7 +142,9 @@ class Education extends Component {
                     </div>
                     <div className='education-informal__box'>
                         <div className='box-left'>
-
+                            <div className='education__box-img'>
+                                <img src={CSPic} alt='Laptop' />
+                            </div>
                         </div>
                         <div className='box-right'>
                             <h5 className='education__box-title'>COMPUTER SCIENCE CONCEPTS / TECHNOLOGIES</h5>
@@ -149,7 +166,9 @@ class Education extends Component {
                     </div>
                     <div className='education-informal__box'>
                         <div className='box-left'>
-
+                            <div className='education__box-img'>
+                                <img src={WebDevPic} alt='Pretty webdev' />
+                            </div>
                         </div>
                         <div className='box-right'>
                             <h5 className='education__box-title'>WEB DEVELOPMENT</h5>
