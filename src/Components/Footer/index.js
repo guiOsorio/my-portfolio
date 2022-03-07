@@ -10,18 +10,18 @@ class Footer extends Component {
             <footer id="footer">
                 <div class="footer-left">
                     <ul class="footer-list">
-                        <li><a href="https://www.instagram.com/usandiego_acm/" target="_blank">Our Instagram</a></li>
-                        <li><a href="https://www.sandiego.edu/engineering/" target="_blank">USD School of Engineering</a></li>
-                        <li><a href="https://www.sandiego.edu/" target="_blank">USD</a></li>
+                        <li>Email me at gosorio@sandiego.edu</li>
+                        <li>Call me at 6197073685</li>
                     </ul>
                 </div>
                 <div class="footer-center">
-                    <a href="https://www.acm.org/" target="_blank">
-                        <i className="acmIcon footer-acmIcon">{<SiAcm />}</i>
-                    </a>
+                    <ul class="footer-list">
+                        <li><a href="https://github.com/guiOsorio" target="_blank">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/guilherme-osorio-089024162/" target="_blank">LinkedIn</a></li>
+                    </ul>
                 </div>
                 <div class="footer-right">
-                    &copy; Made by ACM USD 2021
+                    &copy; Made by G. Osorio
                 </div>
             </footer>
         );

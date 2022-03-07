@@ -13,7 +13,7 @@ import './styles.css';
         // - BUAN 371 - Analytical Decision Modelling (optimization techniques in Excel)
         // - BUAN 390 - Business Analytics Strategy (visualization in Python and Tableau, Regression analysis and Machine Learning in Python)
         // - ITMG 320 - Database Design and Business Intelligence Implementation (design and structuring database concepts and practice in SQL)
-        // - MGMT 497 Strategic Management (consulting, in-depth understanding of the decisions and strategies of businesses by analyzing case studies)
+        // - MGMT 497 - Strategic Management (consulting, in-depth understanding of the decisions and strategies of businesses by analyzing case studies)
         
     
     // CERTIFICATES / COURSES TO INCLUDE (check email for certificates of completion):
@@ -54,14 +54,16 @@ class Education extends Component {
                             <h5 className='education__box-title'>BUSINESS ANALYTICS</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Stats for Business and Economics - Familiarity with statistics concepts and use of Excel for statistics and Tableau for visualizations.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Descriptive Analytics and Data Management - Big data concepts, along as structuring, preprocessing, visualization and cleaning parts of the analytics process in R and SQL.
+                                </p>
+                                <p>
+                                    Analytical Decision Modelling - Optimization techniques in Excel.
+                                </p>
+                                <p>
+                                    Business Analytics Strategy - Visualization in Python and Tableau, Regression analysis and Machine Learning in Python.
                                 </p>
                             </div>
                         </div>
@@ -74,14 +76,10 @@ class Education extends Component {
                             <h5 className='education__box-title'>FINANCE</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Financial Statements Analysis - In-depth analysis of companies' financial statements in Excel, culminating with a detailed valuation of Lululemon.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Financial Modelling and Analysis - Advanced use of Excel for financial modelling and analysis.
                                 </p>
                             </div>
                         </div>
@@ -94,14 +92,10 @@ class Education extends Component {
                             <h5 className='education__box-title'>OTHER NOTEWORTHY</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Database Design and Business Intelligence Implementation - design and structuring database concepts and practice in SQL.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Strategic Management - consulting, in-depth understanding of the decisions and strategies of businesses by analyzing case studies.
                                 </p>
                             </div>
                         </div>
@@ -117,14 +111,16 @@ class Education extends Component {
                             <h5 className='education__box-title'>ANALYTICS SKILLS</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Udemy Tableau - https://www.udemy.com/course/tableau10/
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Udemy Statistics - https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/
+                                </p>
+                                <p>
+                                    UdemyMySQL - https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/
+                                </p>
+                                <p>
+                                    Swirl R modules
                                 </p>
                             </div>
                         </div>
@@ -137,15 +133,17 @@ class Education extends Component {
                             <h5 className='education__box-title'>COMPUTER SCIENCE CONCEPTS / TECHNOLOGIES</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Udemy Python - https://www.udemy.com/course/the-modern-python3-bootcamp/
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Udemy C/C++ - https://www.udemy.com/course/beginning-c-plus-plus-programming/
+                                    https://github.com/guiOsorio/CPP-Practice 
+                                    https://github.com/guiOsorio/C-CPP-DataStructs
                                 </p>
+                                <p>
+                                    CS50 - https://cs50.harvard.edu/x/2022/syllabus/
+                                    https://github.com/guiOsorio/CS50
+                                </p> 
                             </div>
                         </div>
                     </div>
@@ -157,14 +155,10 @@ class Education extends Component {
                             <h5 className='education__box-title'>WEB DEVELOPMENT</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Udemy WebDev - https://www.udemy.com/course/the-web-developer-bootcamp/
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Udemy Advanced CSS - https://www.udemy.com/course/advanced-css-and-sass/
                                 </p>
                             </div>
                         </div>

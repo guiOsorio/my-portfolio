@@ -51,7 +51,7 @@ class Projects extends Component {
                                     <a href='https://github.com/guiOsorio/Scheduling-Demo' target='_blank'>Github repository</a>
                                 </p>
                                 <p className='link-center'>
-                                    <a href='#'>Project's page</a>
+                                    <a href='/scheduling'>Project's page</a>
                                 </p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ class Projects extends Component {
                                     <a href='https://github.com/guiOsorio/CS50-Trivia' target='_blank'>Github repository</a>
                                 </p>
                                 <p className='link-center'>
-                                    <a href='#'>Project's page</a>
+                                    <a href='/trivia'>Project's page</a>
                                 </p>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ class Projects extends Component {
                                 <a href='https://github.com/usd-cs/acm-website' target='_blank'>Github repository</a> 
                                 <a href='http://usd-acm-website.herokuapp.com/' target='_blank' className='link-right'>Deployed project</a> <br/>
                                 <p className='link-center'>
-                                    <a href='#'>Project's page</a>
+                                    <a href='/acm_website'>Project's page</a>
                                 </p>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ class Projects extends Component {
                                 <a href='https://github.com/guiOsorio/Finance' target='_blank'>Github repository</a> 
                                 <a href='https://gui-finance.herokuapp.com/login' target='_blank' className='link-right'>Deployed project</a> <br/>
                                 <p className='link-center'>
-                                    <a href='#'>Project's page</a>
+                                    <a href='/stock_displayer'>Project's page</a>
                                 </p>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ class Projects extends Component {
                                 <a href='https://github.com/guiOsorio/Gui-Recipes' target='_blank'>Github repository</a> 
                                 <a href='https://gui-recipes.herokuapp.com/' target='_blank' className='link-right'>Deployed project</a> <br/>
                                 <p className='link-center'>
-                                    <a href='#'>Project's page</a>
+                                    <a href='/gui_recipes'>Project's page</a>
                                 </p>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ class Projects extends Component {
                                 <a href='https://github.com/guiOsorio/JS-Algos' target='_blank'>Github repository</a> 
                                 <a href='https://guiosorio.github.io/JS-Algos/' target='_blank' className='link-right'>Deployed project</a> <br/>
                                 <p className='link-center'>
-                                    <a href='#'>Project's page</a>
+                                    <a href='/js_algos'>Project's page</a>
                                 </p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ class Projects extends Component {
                                     <a href='https://github.com/guiOsorio/Covid-Vaccine-Tweets-Analysis' target='_blank'>Github repository</a>
                                 </p>
                                 <p className='link-center'>
-                                    <a href='#' target='_blank'>Project's page</a>
+                                    <a href='/covid_tweets'>Project's page</a>
                                 </p>                    
                             </div>
                         </div>
@@ -157,7 +157,7 @@ class Projects extends Component {
                                     <a href='https://github.com/guiOsorio/ATP-Data-Analysis'>Github repository</a>
                                 </p>
                                 <p className='link-center'>
-                                    <a href='#' target='_blank'>Project's page</a>
+                                    <a href='/tennis_analysis'>Project's page</a>
                                 </p> 
                             </div>
                         </div>
@@ -172,7 +172,7 @@ class Projects extends Component {
                                     <a href='https://github.com/guiOsorio/ATP-Data-Analysis'>Github repository</a>
                                 </p>
                                 <p className='link-center'>
-                                    <a href='#' target='_blank'>Project's page</a>
+                                    <a href='/teasles'>Project's page</a>
                                 </p> 
                             </div>
                         </div>
