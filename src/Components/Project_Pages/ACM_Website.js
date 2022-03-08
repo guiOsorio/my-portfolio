@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './styles.css';
 
 class ACMWebsite extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
+            <div className='project-page'>
                 ACM Website
             </div>   
         );

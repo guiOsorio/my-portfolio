@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Header from './Header';
+import Header2 from './Header2';
 import Homepage from './Homepage';
 import Scheduling from './Project_Pages/Scheduling';
 import Trivia from './Project_Pages/Trivia';
@@ -21,46 +22,58 @@ export default class Routes extends Component {
     render() {
         return (
             <div className='app'>
-                <Header />
                 <Router>
                     <Switch>
                         <Route exact path='/'>
+                            <Header />
                             <Homepage />
                         </Route>
                         <Route exact path='/scheduling'>
+                            <Header2 />
                             <Scheduling />
                         </Route>
                         <Route exact path='/trivia'>
+                            <Header2 />
                             <Trivia />
                         </Route>
                         <Route exact path='/trivia'>
+                            <Header2 />
                             <Trivia />
                         </Route>
                         <Route exact path='/acm_website'>
+                            <Header2 />
                             <ACMWebsite />
                         </Route>
                         <Route exact path='/stock_displayer'>
+                            <Header2 />
                             <StockDisplayer />
                         </Route>
                         <Route exact path='/gui_recipes'>
+                            <Header2 />
                             <GuiRecipes />
                         </Route>
                         <Route exact path='/js_algos'>
+                            <Header2 />
                             <JSAlgos />
                         </Route>
                         <Route exact path='/covid_tweets'>
+                            <Header2 />
                             <CovidTweets />
                         </Route>
                         <Route exact path='/tennis_analysis'>
+                            <Header2 />
                             <TennisAnalysis />
                         </Route>
                         <Route exact path='/teasles'>
+                            <Header2 />
                             <Teasles />
                         </Route>
                         <Route exact path='/tennis_team'>
+                            <Header2 />
                             <USDTennis />
                         </Route>
                         <Route exact path='/ACM_Experience'>
+                            <Header2 />
                             <ACMLeadership />
                         </Route>
                     </Switch>

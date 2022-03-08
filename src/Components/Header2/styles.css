@@ -19,23 +19,3 @@
     font-weight: bold;
     color: black;
 }
-
-.menu-bar {
-    float: right;
-}
-
-.link-tags {
-    display: flex;
-
-    justify-content: space-around;
-    align-items: center;
-}
-
-.link-tags a {
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-}
-
-.link-tags a:hover {
-    border-bottom: 1px solid white;
-}

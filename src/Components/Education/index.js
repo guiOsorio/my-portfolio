@@ -49,7 +49,7 @@ class Education extends Component {
     state = {  } 
     render() { 
         return (
-            <div className="section__education screen-size332">
+            <div id='education' className="section__education screen-size332">
                 <h2>EDUCATION</h2>
                 <div className='education-formal'>
                     <h3>Formal Education</h3>

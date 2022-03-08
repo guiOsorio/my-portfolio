@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './styles.css';
 
 class CovidTweets extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
+            <div className='project-page'>
                 Covid Tweets
             </div>
         );

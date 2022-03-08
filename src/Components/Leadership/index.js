@@ -10,7 +10,7 @@ class Leadership extends Component {
     state = {  } 
     render() { 
         return (
-            <div className='section__leadership screen-size'>
+            <div id='leadership' className='section__leadership screen-size'>
                 <h2>LEADERSHIP EXPERIENCE</h2>
                 <div className='leadership__tennis'>
                     <h4>USD Men's Tennis Team</h4>

@@ -35,7 +35,7 @@ class Projects extends Component {
     state = {  } 
     render() { 
         return (
-            <div className="section__projects screen-size2.8">
+            <div id='projects' className="section__projects screen-size2.8">
                 <h2>PROJECTS</h2>
                 <div className='projects-top'>
                     <h3 className='projects-title'>Software / Web Development</h3>

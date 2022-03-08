@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './styles.css';
 
 class TennisAnalysis extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
+            <div className='project-page'>
                 Tennis Analysis
             </div>
         );
