@@ -1,5 +1,6 @@
 .section__education {
     background-color: #e5e4e2;
+    padding-bottom: 5vh;
 }
 
 .section__education h2 {
@@ -10,6 +11,7 @@
 
 .education-formal h3,
 .education-informal h3 { 
+    padding-top: 2vh;
     height: 10vh;
     text-align: center;
     text-decoration: underline;
@@ -52,7 +54,7 @@
     height: 40vh;
     width: 100%;
     border: 1px solid black;
-    padding: 0 2% 1% 2%;
+    padding: 0 2vw 1vh 2vw;
 }
 
 .education__box-img {
