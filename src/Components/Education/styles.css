@@ -53,8 +53,12 @@
 .education__box-text {
     height: 40vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 0 2vw 1vh 2vw;
+}
+
+.education__box-text a {
+    padding: 1%;
 }
 
 .education__box-img {

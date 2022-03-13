@@ -7,10 +7,10 @@ class Welcome extends Component {
         return (
             <div className='section__welcome screen-size'>
                 <div className='welcome-intro'>
-                    <h1>WELCOME-INTRO</h1>
+                    <h1>WELCOME TO MY PORTFOLIO WEBSITE</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Here you will learn about my personal projects in software development and data analytics,
+                        about my school education and the extra knowledge I have gathered throughout the years, and my leadership experiences in college.
                     </p>
                 </div>
             </div>

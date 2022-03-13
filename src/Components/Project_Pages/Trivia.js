@@ -6,7 +6,7 @@ class Trivia extends Component {
     render() { 
         return (
             <div className='project-page'>
-                Trivia
+                <h1>COMING SOON...</h1>
             </div>
         );
     }

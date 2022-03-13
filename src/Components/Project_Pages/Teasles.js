@@ -6,7 +6,7 @@ class Teasles extends Component {
     render() { 
         return (
             <div className='project-page'>
-                Teasles
+                <h1>COMING SOON...</h1>
             </div>
         );
     }

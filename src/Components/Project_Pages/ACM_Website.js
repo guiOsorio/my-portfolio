@@ -6,7 +6,7 @@ class ACMWebsite extends Component {
     render() { 
         return (
             <div className='project-page'>
-                ACM Website
+                <h1>COMING SOON...</h1>
             </div>   
         );
     }

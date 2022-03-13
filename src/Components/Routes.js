@@ -13,8 +13,6 @@ import JSAlgos from './Project_Pages/JS_Algos';
 import CovidTweets from './Project_Pages/Covid_Tweets';
 import TennisAnalysis from './Project_Pages/Tennis_Analysis';
 import Teasles from './Project_Pages/Teasles';
-import USDTennis from './Project_Pages/Tennis_Team';
-import ACMLeadership from './Project_Pages/ACM_Leadership';
 import Footer from './Footer';
 
 export default class Routes extends Component {
@@ -67,14 +65,6 @@ export default class Routes extends Component {
                         <Route exact path='/teasles'>
                             <Header2 />
                             <Teasles />
-                        </Route>
-                        <Route exact path='/tennis_team'>
-                            <Header2 />
-                            <USDTennis />
-                        </Route>
-                        <Route exact path='/ACM_Experience'>
-                            <Header2 />
-                            <ACMLeadership />
                         </Route>
                     </Switch>
                 </Router>

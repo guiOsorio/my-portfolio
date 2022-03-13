@@ -6,7 +6,7 @@ class JSAlgos extends Component {
     render() { 
         return (
             <div className='project-page'>
-                JS Algos
+                <h1>COMING SOON...</h1>
             </div>
         );
     }

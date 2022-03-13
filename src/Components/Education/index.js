@@ -63,16 +63,16 @@ class Education extends Component {
                             <h5 className='education__box-title'>BUSINESS ANALYTICS</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Stats for Business and Economics - Familiarity with statistics concepts and use of Excel for statistics and Tableau for visualizations.
+                                    <i>Stats for Business and Economics</i> - Familiarity with statistics concepts and use of Excel for statistics and Tableau for visualizations.
                                 </p>
                                 <p>
-                                    Descriptive Analytics and Data Management - Big data concepts, along as structuring, preprocessing, visualization and cleaning parts of the analytics process in R and SQL.
+                                    <i>Descriptive Analytics and Data Management</i> - Big data concepts, along as structuring, preprocessing, visualization and cleaning parts of the analytics process in R and SQL.
                                 </p>
                                 <p>
-                                    Analytical Decision Modelling - Optimization techniques in Excel.
+                                    <i>Analytical Decision Modelling</i> - Optimization techniques in Excel.
                                 </p>
                                 <p>
-                                    Business Analytics Strategy - Visualization in Python and Tableau, Regression analysis and Machine Learning in Python.
+                                    <i>Business Analytics Strategy</i> - Visualization in Python and Tableau, Regression analysis and Machine Learning in Python.
                                 </p>
                             </div>
                         </div>
@@ -87,10 +87,16 @@ class Education extends Component {
                             <h5 className='education__box-title'>FINANCE</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Financial Statements Analysis - In-depth analysis of companies' financial statements in Excel, culminating with a detailed valuation of Lululemon.
+                                    <i>Financial Statements Analysis</i> - In-depth analysis of companies' financial statements in Excel, culminating with a detailed valuation of Lululemon.
                                 </p>
                                 <p>
-                                    Financial Modelling and Analysis - Advanced use of Excel for financial modelling and analysis.
+                                    <i>Financial Modelling and Analysis</i> - Advanced use of Excel for financial modelling and analysis.
+                                </p>
+                                <p>
+                                    I have learned valuable skills in my Finance degree. I deepened my understanding of Microsoft Excel, being able to effectively
+                                    model and analyze data using the software. I learned how to analyze businesses and understand what makes each
+                                    venture successful, and what causes some to fail. Additionally, by analyzing company's financial statements, I got a better
+                                    understanding on how to interpret these documents.
                                 </p>
                             </div>
                         </div>
@@ -105,10 +111,17 @@ class Education extends Component {
                             <h5 className='education__box-title'>OTHER NOTEWORTHY</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Database Design and Business Intelligence Implementation - design and structuring database concepts and practice in SQL.
+                                    <i>Database Design and Business Intelligence Implementation</i> - design and structuring database concepts and practice in SQL.
                                 </p>
                                 <p>
-                                    Strategic Management - consulting, in-depth understanding of the decisions and strategies of businesses by analyzing case studies.
+                                    <i>Strategic Management</i> - consulting, in-depth understanding of the decisions and strategies of businesses by analyzing case studies.
+                                </p>
+                                <p>
+                                    <i>Global Purchase and Supply Management</i> - understanding of how products become a reality, how companies gather the parts necessary
+                                    to build a product for which they can profit from. 
+                                </p>
+                                <p>
+                                    <i>Eletronic Commerce</i> - analysis of how businesses models have changed with the expansion of the Internet.
                                 </p>
                             </div>
                         </div>
@@ -126,16 +139,19 @@ class Education extends Component {
                             <h5 className='education__box-title'>ANALYTICS SKILLS</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Udemy Tableau - https://www.udemy.com/course/tableau10/
+                                    <i>Udemy Tableau</i> - creation of visualizations in Tableau. <br />
+                                    <a href='https://www.udemy.com/course/tableau10/'>Syllabus</a>
                                 </p>
                                 <p>
-                                    Udemy Statistics - https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/
+                                    <i>Udemy Statistics</i> - necessary statistical knowledge for analytics. <br />
+                                    <a href='https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/'>Syllabus</a> 
                                 </p>
                                 <p>
-                                    UdemyMySQL - https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/
+                                    <i>Udemy MySQL</i> - SQL concepts and practical use. <br />
+                                    <a href='https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/'>Syllabus</a>
                                 </p>
                                 <p>
-                                    Swirl R modules
+                                    <i>Swirl R modules</i> - introduction to R capabilities and different packages to explore data.
                                 </p>
                             </div>
                         </div>
@@ -150,16 +166,19 @@ class Education extends Component {
                             <h5 className='education__box-title'>COMPUTER SCIENCE CONCEPTS / TECHNOLOGIES</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Udemy Python - https://www.udemy.com/course/the-modern-python3-bootcamp/
+                                    <i>Udemy Python</i> - Python main concepts and practical use. <br />
+                                    <a href='https://www.udemy.com/course/the-modern-python3-bootcamp/'>Syllabus</a> 
                                 </p>
                                 <p>
-                                    Udemy C/C++ - https://www.udemy.com/course/beginning-c-plus-plus-programming/
-                                    https://github.com/guiOsorio/CPP-Practice 
-                                    https://github.com/guiOsorio/C-CPP-DataStructs
+                                    <i>Udemy C/C++</i> - Basics of C and C++ syntax and how it works. <br />
+                                    <a href='https://www.udemy.com/course/beginning-c-plus-plus-programming/'>Syllabus</a> |
+                                    <a href='https://github.com/guiOsorio/CPP-Practice'>Practical work 1</a> |
+                                    <a href='https://github.com/guiOsorio/C-CPP-DataStructs'>Practical work 2</a> 
                                 </p>
                                 <p>
-                                    CS50 - https://cs50.harvard.edu/x/2022/syllabus/
-                                    https://github.com/guiOsorio/CS50
+                                    <i>CS50</i> - introduction to core computer science concepts and programming languages. <br />
+                                    <a href='https://cs50.harvard.edu/x/2022/syllabus/'>Syllabus</a> |
+                                    <a href='https://github.com/guiOsorio/CS50'>Class projects</a>
                                 </p> 
                             </div>
                         </div>
@@ -174,10 +193,16 @@ class Education extends Component {
                             <h5 className='education__box-title'>WEB DEVELOPMENT</h5>
                             <div className='education__box-text'>
                                 <p>
-                                    Udemy WebDev - https://www.udemy.com/course/the-web-developer-bootcamp/
+                                    <i>Udemy WebDev</i> - introduction to many concepts related to web development such as HTML, CSS, Node.js, SQL, Javascript, etc. As well
+                                    as code-along projects to learn throughout the way. <br />
+                                    <a href='https://www.udemy.com/course/the-web-developer-bootcamp/'>Syllabus</a> |
+                                    <a href='https://github.com/guiOsorio/yelp-camp'>Final code-along project</a>
                                 </p>
                                 <p>
-                                    Udemy Advanced CSS - https://www.udemy.com/course/advanced-css-and-sass/
+                                    <i>Udemy Advanced CSS</i> - intermediate knowledge on HTML and CSS. Designing concepts to make websites aesthetically pleasing. <br />
+                                    <a href='https://www.udemy.com/course/advanced-css-and-sass/'>Syllabus</a> |
+                                    <a href='https://github.com/guiOsorio/Trillo'>Project 1</a> |
+                                    <a href='https://github.com/guiOsorio/Natours'>Project 2</a>
                                 </p>
                             </div>
                         </div>

@@ -6,7 +6,7 @@ class StockDisplayer extends Component {
     render() { 
         return (
             <div className='project-page'>
-                Stock Displayer
+                <h1>COMING SOON...</h1>
             </div>
         );
     }

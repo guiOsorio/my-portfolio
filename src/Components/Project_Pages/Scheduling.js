@@ -6,7 +6,7 @@ class Scheduling extends Component {
     render() { 
         return (
             <div className='project-page'>
-                Scheduling Page
+                <h1>COMING SOON...</h1>
             </div>
         );
     }

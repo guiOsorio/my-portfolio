@@ -6,7 +6,7 @@ class CovidTweets extends Component {
     render() { 
         return (
             <div className='project-page'>
-                Covid Tweets
+                <h1>COMING SOON...</h1>
             </div>
         );
     }

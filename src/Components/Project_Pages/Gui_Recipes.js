@@ -6,7 +6,7 @@ class GuiRecipes extends Component {
     render() { 
         return (
             <div className='project-page'>
-                Gui Recipes
+                <h1>COMING SOON...</h1>
             </div>
         );
     }

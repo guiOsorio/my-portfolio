@@ -6,7 +6,7 @@ class TennisAnalysis extends Component {
     render() { 
         return (
             <div className='project-page'>
-                Tennis Analysis
+                <h1>COMING SOON...</h1>
             </div>
         );
     }
