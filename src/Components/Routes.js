@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Header from './Header';
 import Header2 from './Header2';
@@ -21,7 +21,7 @@ export default class Routes extends Component {
         return (
             <div className='app'>
                 <Router>
-                    <Switch>
+                    <Routes>
                         <Route exact path='/'>
                             <Header />
                             <Homepage />
@@ -66,7 +66,7 @@ export default class Routes extends Component {
                             <Header2 />
                             <Teasles />
                         </Route>
-                    </Switch>
+                    </Routes>
                 </Router>
                 <Footer />
             </div>
