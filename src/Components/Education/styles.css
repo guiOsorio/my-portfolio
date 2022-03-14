@@ -19,17 +19,17 @@
 }
 
 .education-formal {
-    height: 160vh;
+    height: 200vh;
     width: 100%;
 }
 
 .education-informal {
-    height: 160vh;
+    height: 200vh;
     width: 100%;
 }
 
 .box-left {
-    height: 50vh;
+    height: 60vh;
     width: 40%;
     float: left;
     display: flex;
@@ -38,7 +38,7 @@
     align-items: center;
 }
 .box-right {
-    height: 50vh;
+    height: 60vh;
     width: 60%;
     float: right;
 }
@@ -51,7 +51,7 @@
 }
 
 .education__box-text {
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     /* border: 1px solid black; */
     padding: 0 2vw 1vh 2vw;

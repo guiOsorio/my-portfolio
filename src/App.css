@@ -15,6 +15,8 @@ h1,h2,h3 {
   font-family: suez one, serif;
 }
 
+p { text-align: justify }
+
 a {
   text-decoration: none;
   color: #797ef6;
@@ -23,6 +25,36 @@ a {
 .screen-size {
   height: 100vh;
   width: 100vw;
+}
+.screen-size110 {
+  height: 110vh;
+  width: 100vw;
+}
+
+.small-screen {
+  padding: 20vh;
+  text-align: justify;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #8e8e8e;
+  color: white;
+  font-weight: bold;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1080px) { 
+  .maindiv { 
+    display: none;
+  } 
+}
+
+@media only screen and (min-width: 1080px) { 
+  .small-screen { 
+    display: none;
+  } 
 }
 
 
