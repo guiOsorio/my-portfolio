@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Routes from './Components/Routes';
+import AllRoutes from './Components/Routes';
 
 
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
                     A responsive version of this website is under development.
                 </div>
                 <div className='maindiv'>
-                    <Routes />
+                    <AllRoutes />
                 </div>
             </div>
         );

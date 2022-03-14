@@ -15,7 +15,7 @@ import TennisAnalysis from './Project_Pages/Tennis_Analysis';
 import Teasles from './Project_Pages/Teasles';
 import Footer from './Footer';
 
-export default class Routes extends Component {
+export default class AllRoutes extends Component {
     state = { }
     render() {
         return (
