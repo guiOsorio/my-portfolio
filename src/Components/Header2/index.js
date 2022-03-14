@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
 
-class Header extends Component {
+class Header2 extends Component {
     state = {  } 
     render() { 
         return (
@@ -16,4 +16,4 @@ class Header extends Component {
     }
 }
  
-export default Header;
+export default Header2;

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { SiAcm } from "react-icons/si";
 import './styles.css';
 
 // Provide contact info (email, phone number, github, linkedin) (check ACM website for design)

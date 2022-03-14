@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import './styles.css';
 
+import Header2 from '../Header2/index.js';
+
+
 class ACMWebsite extends Component {
     state = {  } 
     render() { 
         return (
-            <div className='project-page'>
-                <h1>COMING SOON...</h1>
-            </div>   
+            <div>
+                <Header2 />
+                <div className='project-page'>
+                    <h1>COMING SOON...</h1>
+                </div>   
+            </div>
         );
     }
 }

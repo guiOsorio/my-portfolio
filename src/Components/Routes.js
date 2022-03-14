@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Header from './Header';
-import Header2 from './Header2';
 import Homepage from './Homepage';
 import Scheduling from './Project_Pages/Scheduling';
 import Trivia from './Project_Pages/Trivia';
@@ -15,57 +13,23 @@ import TennisAnalysis from './Project_Pages/Tennis_Analysis';
 import Teasles from './Project_Pages/Teasles';
 import Footer from './Footer';
 
-export default class AllRoutes extends Component {
+export default class Routesall extends Component {
     state = { }
     render() {
         return (
             <div className='app'>
                 <Router>
                     <Routes>
-                        <Route exact path='/'>
-                            <Header />
-                            <Homepage />
-                        </Route>
-                        <Route exact path='/scheduling'>
-                            <Header2 />
-                            <Scheduling />
-                        </Route>
-                        <Route exact path='/trivia'>
-                            <Header2 />
-                            <Trivia />
-                        </Route>
-                        <Route exact path='/trivia'>
-                            <Header2 />
-                            <Trivia />
-                        </Route>
-                        <Route exact path='/acm_website'>
-                            <Header2 />
-                            <ACMWebsite />
-                        </Route>
-                        <Route exact path='/stock_displayer'>
-                            <Header2 />
-                            <StockDisplayer />
-                        </Route>
-                        <Route exact path='/gui_recipes'>
-                            <Header2 />
-                            <GuiRecipes />
-                        </Route>
-                        <Route exact path='/js_algos'>
-                            <Header2 />
-                            <JSAlgos />
-                        </Route>
-                        <Route exact path='/covid_tweets'>
-                            <Header2 />
-                            <CovidTweets />
-                        </Route>
-                        <Route exact path='/tennis_analysis'>
-                            <Header2 />
-                            <TennisAnalysis />
-                        </Route>
-                        <Route exact path='/teasles'>
-                            <Header2 />
-                            <Teasles />
-                        </Route>
+                        <Route exact path='/' element={<Homepage />} />
+                        <Route exact path='/scheduling' element={<Scheduling />} />
+                        <Route exact path='/trivia' element={<Trivia />} />
+                        <Route exact path='/acm_website' element={<ACMWebsite />} />
+                        <Route exact path='/stock_displayer' element={<StockDisplayer />} />
+                        <Route exact path='/gui_recipes' element={<GuiRecipes />} />
+                        <Route exact path='/js_algos' element={<JSAlgos />} />
+                        <Route exact path='/covid_tweets' element={<CovidTweets />} />
+                        <Route exact path='/tennis_analysis' element={<TennisAnalysis />} />
+                        <Route exact path='/teasles' element={<Teasles />} />
                     </Routes>
                 </Router>
                 <Footer />

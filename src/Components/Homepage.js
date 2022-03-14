@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Header from './Header';
 import Welcome from './Welcome';
 import About from './About';
 import Projects from './Projects';
@@ -11,6 +12,7 @@ class Homepage extends Component {
     render() { 
         return (
             <div>
+                <Header />
                 <Welcome />
                 <About />
                 <Projects />
