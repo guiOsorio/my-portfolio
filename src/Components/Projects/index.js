@@ -154,7 +154,7 @@ class Projects extends Component {
                                 <p>&rarr; Technologies used: Python + R (ggplot, dplyr) <br/>
                                 &rarr; Data scrapping from ATP.com followed by data analysis</p>
                                 <p className='link-center'>
-                                    <a href='https://github.com/guiOsorio/ATP-Data-Analysis'>Github repository</a>
+                                    <a href='https://github.com/guiOsorio/ATP-Data-Analysis' target='_blank'>Github repository</a>
                                 </p>
                                 <p className='link-center'>
                                     <a href='/tennis_analysis'>Project's page</a>
@@ -169,7 +169,7 @@ class Projects extends Component {
                                 <p>&rarr; Technologies used: SQL <br/>
                                 &rarr; Final project for the class 'Database Design and Business Intelligence Implementation'</p>
                                 <p className='link-center'>
-                                    <a href='https://github.com/guiOsorio/ITMG_320/tree/master/Final_Project'>Github repository</a>
+                                    <a href='https://github.com/guiOsorio/ITMG_320/tree/master/Final_Project' target='_blank'>Github repository</a>
                                 </p>
                                 <p className='link-center'>
                                     <a href='/teasles'>Project's page</a>
@@ -184,7 +184,7 @@ class Projects extends Component {
                                 <p>&rarr; Technologies used: Python (Pandas, Seaborn) <br/>
                                 &rarr; Exploratory data analysis with Python libraries</p>
                                 <p className='link-center'>
-                                    <a href='https://github.com/guiOsorio/Retail-Analysis'>Github repository</a>
+                                    <a href='https://github.com/guiOsorio/Retail-Analysis' target='_blank'>Github repository</a>
                                 </p>
                                 <p className='link-center'>
                                     <a href='/retail'>Project's page</a>
