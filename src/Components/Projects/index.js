@@ -169,10 +169,25 @@ class Projects extends Component {
                                 <p>&rarr; Technologies used: SQL <br/>
                                 &rarr; Final project for the class 'Database Design and Business Intelligence Implementation'</p>
                                 <p className='link-center'>
-                                    <a href='https://github.com/guiOsorio/ATP-Data-Analysis'>Github repository</a>
+                                    <a href='https://github.com/guiOsorio/ITMG_320/tree/master/Final_Project'>Github repository</a>
                                 </p>
                                 <p className='link-center'>
                                     <a href='/teasles'>Project's page</a>
+                                </p> 
+                            </div>
+                        </div>
+                        <div className='data-project card'>
+                            <div className='front retail-img'>
+                                <h4>Retail Analysis</h4>
+                            </div>
+                            <div className='back'>
+                                <p>&rarr; Technologies used: Python (Pandas, Seaborn) <br/>
+                                &rarr; Exploratory data analysis with Python libraries</p>
+                                <p className='link-center'>
+                                    <a href='https://github.com/guiOsorio/Retail-Analysis'>Github repository</a>
+                                </p>
+                                <p className='link-center'>
+                                    <a href='/retail'>Project's page</a>
                                 </p> 
                             </div>
                         </div>

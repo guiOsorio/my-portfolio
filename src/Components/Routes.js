@@ -11,6 +11,7 @@ import JSAlgos from './Project_Pages/JS_Algos';
 import CovidTweets from './Project_Pages/Covid_Tweets';
 import TennisAnalysis from './Project_Pages/Tennis_Analysis';
 import Teasles from './Project_Pages/Teasles';
+import Retail from './Project_Pages/Retail_Analysis';
 import Footer from './Footer';
 
 export default class Routesall extends Component {
@@ -30,6 +31,7 @@ export default class Routesall extends Component {
                         <Route exact path='/covid_tweets' element={<CovidTweets />} />
                         <Route exact path='/tennis_analysis' element={<TennisAnalysis />} />
                         <Route exact path='/teasles' element={<Teasles />} />
+                        <Route exact path='/retail' element={<Retail />} />
                     </Routes>
                 </Router>
                 <Footer />
