@@ -34,6 +34,7 @@
     width: 50%;
     float: left;
     padding: 0 3vw 0 3vw;
+    overflow: scroll;
 }
 .leadership__images {
     height: 80vh;
@@ -57,4 +58,70 @@
     width: 65%;
     height: 95%;
     border-radius: 5%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .leadership__text-box p {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .leadership__tennis {
+        height: 165vh;
+    }
+
+    .leadership__acm {
+        height: 185vh;
+    }
+
+    .leadership__text-box {
+        height: 60vh;
+        width: 100%;
+        float: none;
+        padding: 0 3vw 0 0;
+        overflow: scroll;
+        margin-bottom: 5vh;
+    }
+    .leadership__images {
+        height: 80vh;
+        width: 100%;
+        float: none;
+        padding: 0 2vw 0 2vw;
+    }
+
+    .img-1 {
+        margin-bottom: 3vh;
+    }
+    
+    .img-1,
+    .img-2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-1 img,
+    .img-2 img {
+        width: 65%;
+        height: 95%;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section__leadership h4 {
+        height: 10vh;
+    }
+    .leadership__tennis {
+        height: 150vh;
+    }
+
+    .leadership__acm {
+        height: 155vh;
+    }
 }

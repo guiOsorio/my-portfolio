@@ -19,3 +19,29 @@
     font-size: 150%;
     text-align: justify;
 }
+
+@media only screen and (max-width: 850px) { 
+    .welcome-intro {
+        top: 27%;
+    }
+    .welcome-intro p { 
+      font-size: 100%;
+    } 
+}
+
+@media only screen and (max-width: 500px) { 
+    .welcome-intro {
+        top: 20%;
+        left: 21%;
+        width: 50%;
+    }
+    .welcome-intro p { 
+        font-size: 90%;
+    } 
+}
+
+@media only screen and (max-width: 340px) { 
+    .welcome-intro p { 
+        font-size: 80%;
+    } 
+}

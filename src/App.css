@@ -11,6 +11,10 @@ body {
   box-sizing: border-box;
 }
 
+ol, ul {
+  padding-left: 0;
+}
+
 h1,h2,h3 {
   font-family: suez one, serif;
 }
@@ -31,7 +35,7 @@ a {
   width: 100vw;
 }
 
-.small-screen {
+/* .small-screen {
   padding: 20vh;
   text-align: justify;
   min-height: 100vh;
@@ -43,9 +47,9 @@ a {
 
   align-items: center;
   justify-content: center;
-}
+} */
 
-@media only screen and (max-width: 1080px) { 
+/* @media only screen and (max-width: 1080px) { 
   .maindiv { 
     display: none;
   } 
@@ -55,6 +59,6 @@ a {
   .small-screen { 
     display: none;
   } 
-}
+} */
 
 

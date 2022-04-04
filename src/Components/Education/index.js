@@ -107,7 +107,7 @@ class Education extends Component {
                                 <img src={LecturePic} alt='Lecture' />
                             </div>
                         </div>
-                        <div className='box-right'>
+                        <div className='box-right other'>
                             <h5 className='education__box-title'>OTHER NOTEWORTHY</h5>
                             <div className='education__box-text'>
                                 <p>
@@ -163,7 +163,7 @@ class Education extends Component {
                             </div>
                         </div>
                         <div className='box-right'>
-                            <h5 className='education__box-title'>COMPUTER SCIENCE CONCEPTS / TECHNOLOGIES</h5>
+                            <h5 className='education__box-title'>PROGRAMMING CONCEPTS</h5>
                             <div className='education__box-text'>
                                 <p>
                                     <i>Udemy Python</i> - Python main concepts and practical use. <br />

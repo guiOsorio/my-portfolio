@@ -20,7 +20,7 @@
 
 .projects-bottom {
     width: 100vw;
-    height: 105vh;
+    height: 145vh;
 }
 
 .projects-title {
@@ -62,6 +62,7 @@
 .tenniscourt-img {background-image: url('../../assets/Tennis_court0.6.png') }
 .teasles-img { background-image: url('../../assets/Teasles_Diagram0.6.png') }
 .retail-img { background-image: url('../../assets/Retail0.6.png') }
+.student-img { background-image: url('../../assets/Students0.6.png') }
 
 .link-right { float: right }
 
@@ -112,6 +113,11 @@
     top: 0;
     left: 100%;
     padding: 0 5%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .card:hover .back {
     top: 0;
@@ -128,4 +134,49 @@
 .card .back p {
     margin: 1% 0 0 0;
     color: #fff;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .card .back p {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .projects-top {
+        width: 100vw;
+        height: 290vh;
+    }
+    
+    .projects-top .projects-category {
+        height: 250vh;
+    }
+
+    .data-project {
+        width: 75%;
+        height: 50vh;
+        margin-bottom: 5vh;
+        border: 2px solid #cbc3e3;
+    }
+    
+    .projects-bottom {
+        width: 100vw;
+        height: 350vh;
+    }
+
+    .webdev-project {
+        width: 75%;
+        height: 50vh;
+        margin-bottom: 5vh;
+        border: 2px solid #cbc3e3;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .projects-title {
+        height: 12vh;
+        padding: 0 5vw;
+    }
 }

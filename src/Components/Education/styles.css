@@ -71,3 +71,66 @@
     height: 100%;
     border-radius: 5%;
 }
+
+
+@media only screen and (max-width: 850px) {
+    .education__box-text p {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .education-formal {
+        height: 280vh;
+        width: 100%;
+    }
+    
+    .education-informal {
+        height: 270vh;
+        width: 100%;
+    }
+    
+    .box-left {
+        height: 40vh;
+        width: 100%;
+        float: none;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    .box-right {
+        height: 50vh;
+        width: 100%;
+        float: none;
+        /* display: flex;
+    
+        justify-content: center;
+        align-items: center; */
+    }
+    .other {
+        height: 60vh;
+    }
+
+    .education__box-text {
+        height: 100%;
+        padding: 0 4vw 1vh 4vw;
+    }
+
+    .education__box-img {
+        width: 60%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .education__box-text p {
+        font-size: 75%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .education__box-text p {
+        font-size: 65%;
+    }
+}

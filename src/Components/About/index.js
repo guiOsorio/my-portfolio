@@ -7,7 +7,7 @@ class About extends Component {
     state = {  } 
     render() { 
         return (
-            <section id='about' className='section__about screen-size110'>
+            <section id='about' className='section__about'>
                 <div className='about-left'>
                     <h2>ABOUT ME</h2>
                     <div className='wrapper'>
