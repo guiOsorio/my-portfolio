@@ -39,3 +39,15 @@
 .link-tags a:hover {
     border-bottom: 1px solid white;
 }
+
+@media only screen and (max-width: 550px) {
+    .app-header a {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .app-header a {
+        font-size: 70%;
+    }
+}
