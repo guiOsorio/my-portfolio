@@ -15,6 +15,10 @@ ol, ul {
   padding-left: 0;
 }
 
+.nobl { 
+  list-style-type: none;
+}
+
 h1,h2,h3 {
   font-family: suez one, serif;
 }
@@ -23,7 +27,8 @@ p { text-align: justify }
 
 a {
   text-decoration: none;
-  color: #797ef6;
+  /* color: #797ef6; -- FORMER COLOR */
+  color: #2877B5;
 }
 
 .screen-size {
@@ -48,17 +53,21 @@ a {
   align-items: center;
   justify-content: center;
 }
-
+/*
 @media only screen and (max-width: 1080px) { 
   .maindiv { 
     display: none;
   } 
 }
-
+*/
 @media only screen and (min-width: 1080px) { 
   .small-screen { 
     display: none;
   } 
 }
-
-
+/* 
+#1C1F1B - dark
+#C9C0A5 - beige
+#7A9282 - green
+#2877B5 - blue
+*/

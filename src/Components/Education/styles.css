@@ -1,6 +1,7 @@
 .section__education {
-    background-color: #e5e4e2;
+    background-color: #fff;
     padding-bottom: 5vh;
+    height: 100vh;
 }
 
 .section__education h2 {
@@ -9,128 +10,26 @@
     height: 12vh;
 }
 
-.education-formal h3,
-.education-informal h3 { 
-    padding-top: 2vh;
-    height: 10vh;
-    text-align: center;
-    text-decoration: underline;
-    margin: 0;
-}
-
-.education-formal {
-    height: 200vh;
-    width: 100%;
-}
-
-.education-informal {
-    height: 200vh;
-    width: 100%;
-}
-
-.box-left {
-    height: 60vh;
-    width: 40%;
-    float: left;
+.education_boxes {
     display: flex;
 
-    justify-content: center;
-    align-items: center;
-}
-.box-right {
-    height: 60vh;
-    width: 60%;
-    float: right;
+    justify-content: space-evenly;
 }
 
-.education__box-title {
-    font-weight: bold;
-    padding: 2%;
-    height: 10vh;
-    margin: 0;
+.vl {
+    border-left: 3px solid black;
+    height: 75vh;
 }
 
-.education__box-text {
-    height: 50vh;
-    width: 100%;
-    /* border: 1px solid black; */
-    padding: 0 2vw 1vh 2vw;
+.education_boxes h4 {
+    color: #7A9282;
 }
 
-.education__box-text a {
-    padding: 1%;
+.pb li:not(:last-child) {
+    padding-bottom: 7%;
 }
 
-.education__box-img {
-    width: 80%;
-    height: 80%;
-}
-
-.education__box-img img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-
-
-@media only screen and (max-width: 850px) {
-    .education__box-text p {
-        font-size: 80%;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .education-formal {
-        height: 280vh;
-        width: 100%;
-    }
-    
-    .education-informal {
-        height: 270vh;
-        width: 100%;
-    }
-    
-    .box-left {
-        height: 40vh;
-        width: 100%;
-        float: none;
-        display: flex;
-    
-        justify-content: center;
-        align-items: center;
-    }
-    .box-right {
-        height: 50vh;
-        width: 100%;
-        float: none;
-        /* display: flex;
-    
-        justify-content: center;
-        align-items: center; */
-    }
-    .other {
-        height: 60vh;
-    }
-
-    .education__box-text {
-        height: 100%;
-        padding: 0 4vw 1vh 4vw;
-    }
-
-    .education__box-img {
-        width: 60%;
-        height: 80%;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .education__box-text p {
-        font-size: 75%;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .education__box-text p {
-        font-size: 65%;
-    }
+.education__coursework h4,
+.education__skills h4 {
+    padding-bottom: 5%;
 }

@@ -54,3 +54,28 @@ CERTIFICATES / COURSES TO INCLUDE (check email for certificates of completion):
 - CS50
     - https://cs50.harvard.edu/x/2022/syllabus/
     - https://github.com/guiOsorio/CS50
+
+
+
+EDUCATION + SKILLS
+Relevant Coursework
+- Stats for Business and Economics
+- Descriptive Analytics and Data Management
+- Analytical Decision Modelling
+- Business Analytics Strategy
+- Financial Statements Analysis
+- Financial Modelling and Analysis
+- Database Design and Business Intelligence Implementation
+- Strategic Management
+- Global Purchase and Supply Management
+- Eletronic Commerce
+
+Relevant Skills
+- Python for data analysis
+- Python for machine learning
+- Other programming languages -> R, Javascript, C++
+- SQL (MySQL, MS SQL Server, PostgreSQL)
+- Tableau
+- Statistics concepts
+- Data Structures & Algorithms
+- Web Development -> HTML/CSS, React, Flask

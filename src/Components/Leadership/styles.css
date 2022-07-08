@@ -1,5 +1,6 @@
 .section__leadership {
-    background-color: #ccccff;
+    /* background-color: #ccccff; -- FORMER COLOR */
+    background-color: #fff;
     padding-bottom: 10vh;
 }
 
@@ -34,7 +35,7 @@
     width: 50%;
     float: left;
     padding: 0 3vw 0 3vw;
-    overflow: scroll;
+    /* overflow: scroll; -- FORMER */
 }
 .leadership__images {
     height: 80vh;

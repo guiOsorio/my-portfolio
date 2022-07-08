@@ -30,7 +30,7 @@ class About extends Component {
                         analytics. The goal of this website is to highlight the projects I have built, the skills I have developed, and the leadership experiences 
                         I have had in recent years.
                     </p>
-                </div>
+                </div>       
             </section>
         );
     }

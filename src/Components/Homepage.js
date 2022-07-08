@@ -15,8 +15,8 @@ class Homepage extends Component {
                 <Header />
                 <Welcome />
                 <About />
-                <Projects />
                 <Education />
+                <Projects />
                 <Leadership />
             </div>
         );
